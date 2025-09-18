@@ -31,3 +31,21 @@ p {
 img {
   width: 80%;
 }
+
+button {
+  margin-top: 40px;
+  background-color: rgb(1,158,2);
+  padding: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  border-radius: 10px;
+  font-size: "Montserrat";
+  font-size: 18px;
+  transition: background-color 0.3s;
+  color: black;
+}
+
+button:hover {
+  background-color: green;
+  cursor: pointer;
+}
